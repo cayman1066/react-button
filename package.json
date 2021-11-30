@@ -4,8 +4,7 @@
   "private": false,
   "babel": {
     "presets": [
-      "@babel/preset-react",
-      "@babel/plugin-syntax-jsx"
+      "@babel/preset-react"
     ]
   },
   "dependencies": {
@@ -30,6 +29,7 @@
       "react-app/jest"
     ]
   },
+  "plugins": ["@babel/plugin-syntax-jsx"],
   "browserslist": {
     "production": [
       ">0.2%",
