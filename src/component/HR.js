@@ -1,4 +1,9 @@
 import React from 'react';
 
 
-export const HR=()=><hr/>
+export const HR = () => {
+
+    return (
+        <hr/>
+    )
+}
